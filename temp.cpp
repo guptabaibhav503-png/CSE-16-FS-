@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int temp;
+    cout<<"Enter the temprature";
+    cin>>temp;
+    if(temp == 0){
+        cout<<"0";
+    }else if(temp > 0){
+        cout<<"Positive";           
+    }else{
+        cout<<"Negative";
+    }
+}
